@@ -39,7 +39,7 @@ createWidget("quote-of-the-day-widget", {
       quoteOfTheDayAuthor = `, ${state.quoteObject.contents.quotes[0].author}`;
     }
 
-    return h("div.qod-container",h("div.qod-quote-box", [
+    return h("div.qod-quote-box", [
       h(
         "span.qod-quote",
         quoteOfTheDay
@@ -48,6 +48,6 @@ createWidget("quote-of-the-day-widget", {
         "span.qod-author",
         quoteOfTheDayAuthor
       )
-    ]));
+    ]);
   },
 });
