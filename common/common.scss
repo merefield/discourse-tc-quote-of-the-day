@@ -1,8 +1,13 @@
+.d-header title {
+  width: 100%;
+}
+
 .qod-container {
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 
   .qod-quote-box {
     margin: 0 auto;
