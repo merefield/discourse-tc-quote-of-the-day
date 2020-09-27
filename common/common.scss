@@ -1,0 +1,14 @@
+.qod-container {
+  position: fixed;
+  left: 0;
+  translate: 0 -0.3em;
+  text-align: center;
+  width: 100vw;
+
+  .qod-quote-box {
+    margin: 0 auto;
+    display: inline-block;
+    font-weight: 300;
+    font-style: italic;
+  }
+}
