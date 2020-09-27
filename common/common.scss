@@ -1,8 +1,10 @@
 .qod-container {
   position: fixed;
   left: 0;
-  translate: 0 -0.3em;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100vw;
 
   .qod-quote-box {
@@ -10,5 +12,6 @@
     display: inline-block;
     font-weight: 300;
     font-style: italic;
+    max-width: 60%;
   }
 }

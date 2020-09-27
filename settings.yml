@@ -1,0 +1,4 @@
+quote_of_the_day_api_querystring:
+  default: ''
+  description:
+    en: "Querystring parameters sent to quote API"
