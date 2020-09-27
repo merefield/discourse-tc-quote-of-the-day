@@ -15,7 +15,10 @@ export default {
           !helper.widget.site.mobileView &&
           currentPath.indexOf("topic") === -1
         ) {
+          $(".d-header .title").addClass('title-with-quote');
           return helper.attach("quote-of-the-day-widget");
+        } else {
+          $(".d-header .title").removeClass('title-with-quote');
         }
       });
     });
