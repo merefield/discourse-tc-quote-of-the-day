@@ -1,23 +1,14 @@
-.d-header {
-  .title > a {
-    z-index:10;
-  }
-}
-
 .qod-container {
-  position: fixed;
-  left: 0;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
 
   .qod-quote-box {
     margin: 0 auto;
     display: inline-block;
     font-weight: 300;
     font-style: italic;
-    max-width: 60%;
+    padding: 0 10px 0 10px;
   }
 }
