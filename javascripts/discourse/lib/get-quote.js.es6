@@ -9,7 +9,7 @@ let getQuoteOfTheDay = () => {
         resolve(JSON.parse(this.responseText))
       }
     };
-    xhttp.open("GET", `https://quotes.rest/qod?${settings.quote_of_the_day_api_querystring}`, true);
+    xhttp.open("GET", `${settings.quote_of_the_day_api_call}?${settings.quote_of_the_day_api_querystring}`, true);
     xhttp.send();
   });
 };

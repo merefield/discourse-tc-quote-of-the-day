@@ -1,3 +1,7 @@
+quote_of_the_day_api_call:
+  default: ''
+  description:
+    en: "Full API call including address (without any querystring)"
 quote_of_the_day_api_querystring:
   default: ''
   description:
